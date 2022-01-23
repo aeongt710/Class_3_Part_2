@@ -7,7 +7,7 @@ import react from 'react';
 import NewApp from './NewApp';
 
 ReactDOM.render(
-  <div><App/></div>,
+  <div><App Name="Ahmad" Age={11}/></div>,
   document.getElementById('root')
 );
 // ReactDOM.render(
