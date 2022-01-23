@@ -2,6 +2,13 @@
   text-align: center;
 }
 
+
+.mainDiv{
+  padding-top: 30px;
+  text-align: center;
+}
+
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

@@ -3,13 +3,18 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import react from 'react';
+import NewApp from './NewApp';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <div><App/></div>,
   document.getElementById('root')
 );
+// ReactDOM.render(
+
+//   react.createElement('div',null,"Create element"),
+//   document.getElementById('root')
+// );
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

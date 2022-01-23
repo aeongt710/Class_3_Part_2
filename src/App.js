@@ -1,25 +1,26 @@
 import logo from './logo.svg';
 import './App.css';
+import NewApp from './NewApp';
 
-function App() {
+function App()
+{
+  // let a= 20;
+  // let b= 30;
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={"mainDiv"}>My Name is <strong>Muhammad Ahmad</strong>
+        <hr/>
+      <div><NewApp ></NewApp></div>
     </div>
   );
 }
+
+// function App(props)
+// {
+//   return (
+//     <div>
+//           App js file App Function Name is {props.Name} Age is {props.Age -11}
+//     </div>
+//   );
+// }
 
 export default App;
